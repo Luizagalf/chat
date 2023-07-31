@@ -1,0 +1,13 @@
+@import "../../assets/styles/index.scss";
+
+.header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 20px 16px;
+  box-shadow: 0px -1px 0px 0px rgba(32, 31, 30, 0.12) inset;
+}
+
+.header-title {
+  @include title;
+}

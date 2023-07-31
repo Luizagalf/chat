@@ -1,0 +1,55 @@
+@import "../../assets/styles/index.scss";
+
+.message {
+  display: flex;
+  gap: 8px;
+  max-width: 550px;
+  margin-top: 4px;
+  margin-left: 40px;
+  padding: 0 24px;
+}
+
+.my {
+  align-self: flex-end;
+}
+
+.message-body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  & > div {
+    background-color: $background;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+}
+
+.message-body-title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  color: $text-100;
+  -webkit-line-clamp: 1;
+  @include clippedText;
+}
+
+.message-body-message {
+  font-size: 15px;
+  line-height: 20px;
+  color: $text-100;
+  border-radius: 4px;
+}
+
+.my {
+  .message-body {
+    & > div {
+      background-color: $bg-message;
+    }
+  }
+}
+
+.mainMessage {
+  margin-top: 12px;
+  margin-left: 0px;
+}

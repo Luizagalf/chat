@@ -1,0 +1,27 @@
+.plug {
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+@media (min-width: 701px) {
+  .plug {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .plug {
+    display: flex;
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 300px) {
+  .plug {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../assets/styles/index.scss";
+
+.new-message {
+  background-color: $bg-selected;
+  color: $action;
+  padding: 4px 12px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 12px;
+}

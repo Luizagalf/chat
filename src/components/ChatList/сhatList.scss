@@ -1,0 +1,14 @@
+@import "../../assets/styles/index.scss";
+
+.container {
+  width: 360px;
+  background: #fff;
+  box-shadow: -1px 0px 0px 0px rgba(32, 31, 30, 0.12) inset;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.title {
+  @include title;
+  padding: 20px 16px;
+}

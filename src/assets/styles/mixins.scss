@@ -1,0 +1,13 @@
+@mixin title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  color: $text-100;
+}
+
+@mixin clippedText {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
